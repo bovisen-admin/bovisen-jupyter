@@ -1,0 +1,24 @@
+# Secrets and credentials — never commit these
+.env
+.env.*
+*.env
+secrets.*
+credentials.*
+*_key
+*_secret
+*token*
+clickhouse.cfg
+
+# Data and outputs — live on Railway volume
+notebooks/
+data/
+models/
+exports/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
