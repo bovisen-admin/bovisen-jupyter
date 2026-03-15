@@ -1,0 +1,12 @@
+.git
+.claude
+notebooks/
+data/
+models/
+exports/
+*.ipynb
+*.csv
+*.parquet
+*.xlsx
+*.json
+!railway.json
